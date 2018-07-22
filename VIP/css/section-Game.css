@@ -1,0 +1,432 @@
+.box1{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+}
+/*--------------内容1---轮播图------------*/
+.box1 img{
+	height: 100%;
+}
+.box1 li{
+	height: 500px;
+	text-align: center;
+}
+.box1 ul{
+	position: absolute;
+	height: 900%;
+	width: 100%;
+}
+.box1 input{
+	display: none;
+}
+.box1 label{
+	position: absolute;
+	cursor: pointer;
+	bottom: 10px;
+	z-index: 10;
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	background: url(../img/jinlin.png) no-repeat -250px -16px;
+}
+.box1 label:hover{
+	background: url(../img/jinlin.png) no-repeat -250px 0px;
+}
+.box1 label:nth-of-type(1){
+	margin-left: -72px;
+}
+.box1 label:nth-of-type(2){
+	margin-left: -54px;
+}
+.box1 label:nth-of-type(3){
+	margin-left: -36px;
+}
+.box1 label:nth-of-type(4){
+	margin-left: -18px;
+}
+.box1 label:nth-of-type(5){
+	
+}
+.box1 label:nth-of-type(6){
+	margin-left: 18px;
+}
+}
+.box1 li:nth-of-type(1){
+	background-color: rgb(85, 15, 24);
+}
+.box1 li:nth-of-type(2){
+	background-color: rgb(63, 74, 141);
+}
+.box1 li:nth-of-type(3){
+	background-color: rgb(247, 210, 183);
+}
+.box1 li:nth-of-type(4){
+	background-color: rgb(63, 74, 141);
+}
+.box1 li:nth-of-type(5){
+	background-color: rgb(13, 12, 9);
+}
+
+.box1 input:nth-of-type(1):checked~ul{
+	top: 0;
+}
+.box1 input:nth-of-type(2):checked~ul{
+	top: -100%;
+}
+.box1 input:nth-of-type(3):checked~ul{
+	top: -200%;
+}
+.box1 input:nth-of-type(4):checked~ul{
+	top: -300%;
+}
+.box1 input:nth-of-type(5):checked~ul{
+	top: -400%;
+}
+.box1 input:nth-of-type(6):checked~ul{
+	top: -500%;
+}
+/*--------------内容1---轮播图 end------------*/
+/*----------------内容2--头部-----------------------------*/
+.box2{
+	height: 1593px;
+	width: 100%;
+	padding-top: 20px;
+	background: #fbfbfb;
+}
+.box2 header{
+	width: 1178px;
+	height: 100px;
+	border: 1px solid #f0f0f0;
+	margin: 0 auto;
+}
+.box2 header>div{
+	float: left;
+	border-left: 4px solid #fbd74f;
+    border-right: 1px solid #f0f0f0;
+    width: 256px;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+.box2 header .h2{
+	float: left;
+	width: 64px;
+	height: 44px;
+	margin: 28px 0 28px 12px;
+	background: url(../imgc/jinin.png) no-repeat 0 -11px;
+	font-size: 0;
+}
+.box2 header>div p{
+	float: left;
+	font: 26px/100px "微软雅黑";
+	color: #636363;
+}
+.box2 header>ul{
+	float: left;
+	position: relative;
+	height: 49px;
+	width: 913px;
+	border-bottom: 1px solid #f0f0f0;
+}
+.box2 header li{
+	float: left;
+	
+}
+.box2 header a{
+	display: inline-block;
+	vertical-align: top;
+	font: 16px/50px "微软雅黑";
+	color: #000000;
+	padding: 0 10px 0 16px;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
+}
+.box2 header li:hover a{
+	border-right: 1px solid #f0f0f0;
+	border-left: 1px solid #f0f0f0;
+	background-color: #FFFFFF;
+	color: #d30000;
+}
+.box2 .bottom{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	height: 50px;
+	width: 913px;
+	background-color: #FFFFFF;
+	display: none;
+}
+.box2 .bottom2 a{
+	font: 12px/50px "微软雅黑";
+}
+.box2 .bottom2 span{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+	font-size: 0;
+	width: 10px;
+    height: 11px;
+    background: url(../imgc/jinin.png) no-repeat;
+}
+.box2 header li:hover .bottom2 a{
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
+}
+.box2 header li:hover .bottom{
+	display: block;
+}
+/*----------------内容2--头部end-----------------------------*/
+/*----------------内容2--内容2-1-----------------------------*/
+.box2-1{
+	width: 1180px;
+	height: 774px;
+	padding-top: 38px;
+	margin: 0 auto;
+}
+.box2-1 .mybox{
+	float: right;
+	font: 16px/43px "微软雅黑";
+	color: #636363;
+}
+.box2-1 h3{
+	font: 26px/52px "微软雅黑";
+	color: #636363;
+}
+.box2-1 ul{
+	height: 722px;
+	width: 1176px;
+	padding-left: 4px;
+}
+.box2-1  li{
+	float: left;
+	width: 220px;
+	height: 321px;
+	padding: 0 19px 40px 0;
+}
+.box2-1  .no-p{
+	padding-right: 0;
+}
+.box2-1 img{
+	height: 280px;
+	width: 220px;
+}
+.box2-1 span{
+	display: block;
+	font: 14px/40px "微软雅黑";
+	color: #343434;
+	border-top: 1px solid #fbd74f;
+	transition: 1s;
+}
+.box2-1 li:hover span{
+	background-color: #fbd74f;
+	padding-left: 10px;
+}
+/*----------------内容2--内容2-1end-----------------------------*/
+/*----------------内容2--内容2-2-----------------------------*/
+.box2-2{
+	width: 1180px;
+	height: 417px;
+	padding-top: 6px;
+	margin: 0 auto;
+}
+.box2-2l{
+	float: left;
+	width: 940px;
+	height: 376px;
+}
+.box2-2l h3{
+	font: 26px/54px "微软雅黑";
+	color: #636363;
+}
+.box2-2l  li{
+	float: left;
+	width: 220px;
+	height: 321px;
+	padding: 0 15px 40px 0;
+}
+.box2-2l  .no-p{
+	padding-right: 0;
+}
+.box2-2l img{
+	height: 280px;
+	width: 220px;
+}
+.box2-2l span{
+	display: block;
+	font: 14px/40px "微软雅黑";
+	color: #343434;
+	border-top: 1px solid #fbd74f;
+	transition: 1s;
+}
+.box2-2l li:hover span{
+	background-color: #fbd74f;
+	padding-left: 10px;
+}
+/*------------内容2-2右边-------------------*/
+.box2-2r{
+	float: right;
+	padding-top: 8px;
+	width: 220px;
+	height: 368px;
+	position: relative;
+	overflow: hidden;
+}
+.box2-2r h3{
+	height: 45px;
+	font: 16px/45px "微软雅黑";
+	color: #636363;
+}
+.box2-2r input{
+	display: none;
+}
+.box2-2r label{
+	display: block;
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	cursor: pointer;
+}
+.box2-2r label:nth-of-type(1){
+	top: 20px;
+	right: 30px;
+	background: url(../imgc/jinin.png) no-repeat 0 -55px;
+}
+.box2-2r label:nth-of-type(2){
+	top: 20px;
+	right: 0px;
+	background: url(../imgc/jinin.png) no-repeat 0 -81px;
+}
+.box2-2r .list1{
+	height: 323px;
+	width: 440px;
+	position: absolute;
+	top: 53px;
+}
+.box2-2r .list1>li{
+	float: left;
+	height: 323px;
+	width: 220px;
+}
+.box2-2r .list2{
+	width: 220px;
+	height: 323px;
+}
+.box2-2r .list2 li{
+	width: 220px;
+	height: 75px;
+}
+.box2-2r .list2 li img{
+	float: left;
+	height: 60px;
+	width: 60px;
+	padding-right: 10px;
+}
+.box2-2r .list2 span{
+	float: right;
+	width: 150px;
+	height: 18px;
+	font: 14px/18px "微软雅黑";
+	color: #343434;
+}
+.box2-2r .list2 span:nth-of-type(1){
+	padding-top: 13px;
+}
+.box2-2r .list2 a:hover span{
+	color: #e8b600;
+}
+.box2-2r input:nth-of-type(1):checked~.list1{
+            left: 0;
+}
+.box2-2r input:nth-of-type(2):checked~.list1{
+            left: -100%;
+}
+/*------------内容2-2右边end-------------------*/
+/*------------内容2-3开始------------------------*/
+/*------------内容2-3------left-----开始------------------------*/
+.box3{
+	width: 1180px;
+	height: 256px;
+	margin: 0 auto;
+}
+.box3-1{
+	float: left;
+	width: 590px;
+	height: 256px;
+}
+.box3-1 h3{
+	font: 26px/26px "微软雅黑";
+	color: #636363;
+	padding-bottom: 14px;
+}
+.box3-1 ul{
+	width: 590px;
+	height: 217px;
+}
+.box3-1 li{
+	float: left;
+	width: 110px;
+	height: 217px;
+	padding-right: 34px;
+	position: relative;
+}
+.box3-1 li img{
+	width: 110px;
+	height: 110px;
+	position: absolute;
+}
+.box3-1 span{
+	position: absolute;
+	top: 110px;
+	display: block;
+	width: 110px;
+	text-align: center;
+	font: 14px/28px "微软雅黑";
+	color: #636363;
+}
+.box3-1 span:hover{
+	color: #e8b600;
+}
+.box3-1 li img:nth-of-type(2){
+	display: none;
+}
+.box3-1 li:hover img{
+	display: block;
+}
+/*------------内容2-3------left-----end------------------------*/
+/*------------内容2-3------right-----开始------------------------*/
+.box3-2{
+	float: left;
+}
+.box3-2 h3{
+	font: 26px/26px "微软雅黑";
+	color: #636363;
+	padding-bottom: 14px;
+}
+.box3-2 ul{
+	width: 590px;
+	height: 217px;
+}
+.box3-2 li{
+	float: left;
+	width: 110px;
+	height: 217px;
+	padding-right: 34px;
+	position: relative;
+}
+.box3-2 li img{
+	width: 110px;
+	height: 110px;
+	position: absolute;
+}
+.box3-2 span{
+	position: absolute;
+	top: 110px;
+	display: block;
+	width: 110px;
+	text-align: center;
+	font: 14px/28px "微软雅黑";
+	color: #636363;
+}
+.box3-2 li:hover span{
+	color: #e8b600;

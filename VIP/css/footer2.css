@@ -1,0 +1,79 @@
+footer{
+	height: 325px;
+	margin: 0 auto;
+	text-align: center;
+}
+footer ul{
+	padding: 60px 0;
+	width: 840px;
+	height: 105px;
+	margin: 0 auto;
+}
+footer li{
+	float: left;
+	height: 105px;
+	width: 100px;
+	padding: 0 5px;
+	text-align: center;
+}
+footer div{
+	font-size: 0;
+	width: 100px;
+	height: 85px;
+}
+footer span{
+	font: 14px/20px "微软雅黑";
+	color: #6c6b70;
+}
+footer ul li:nth-of-type(1){
+	background: url(../img/jinlin3.png) no-repeat;
+}
+footer ul li:nth-of-type(2){
+	background: url(../img/jinlin3.png) no-repeat 0 -100px;
+}
+footer ul li:nth-of-type(3){
+	background: url(../img/jinlin3.png) no-repeat 0 -200px;
+}
+footer ul li:nth-of-type(4){
+	background: url(../img/jinlin3.png) no-repeat 0 -300px;
+}
+footer ul li:nth-of-type(5){
+	background: url(../img/jinlin3.png) no-repeat 0 -400px;
+}
+footer ul li:nth-of-type(6){
+	background: url(../img/jinlin3.png) no-repeat 0 -500px;
+}
+footer ul li:nth-of-type(7){
+	background: url(../img/jinlin3.png) no-repeat 0 -600px;
+}
+footer ul li:nth-of-type(1):hover{
+	background: url(../img/jinlin3.png) no-repeat -100px 0;
+}
+footer ul li:nth-of-type(2):hover{
+	background: url(../img/jinlin3.png) no-repeat -100px -100px;
+}
+footer ul li:nth-of-type(3):hover{
+	background: url(../img/jinlin3.png) no-repeat -100px -200px;
+}
+footer ul li:nth-of-type(4):hover{
+	background: url(../img/jinlin3.png) no-repeat -100px -300px;
+}
+footer ul li:nth-of-type(5):hover{
+	background: url(../img/jinlin3.png) no-repeat -100px -400px;
+}
+footer ul li:nth-of-type(6):hover{
+	background: url(../img/jinlin3.png) no-repeat -100px -500px;
+}
+footer ul li:nth-of-type(7):hover{
+	background: url(../img/jinlin3.png) no-repeat -100px -600px;
+}
+footer p{
+	color: #9d9d9d;
+}
+footer p:nth-of-type(1){
+	font: 12px/17px "微软雅黑";
+	padding-bottom: 10px;
+}
+footer p:nth-of-type(2){
+	font: 12px/12px "微软雅黑";
+}
